@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.divmae {
+    display: flex;
+    justify-content: center;
+}
+
+.branco {
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font: normal 30pt Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#txt1 {
+    border-radius: 20px;
+    width: calc(100% - 160px);
+    height: 50px;
+    margin: 0 20px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    color: rgb(110, 110, 110);
+    font-size: 16pt;
+    padding-left: 20px;
+}
+
+#botao {
+    background-color: #ff6958;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 52px;
+    width: 120px;
+    position: relative;
+    top: -2px;
+    transition: background-color 0.3s;
+}
+
+#botao:hover {
+    background-color: #e55a50;
+}
+
+#resultado_1 {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#resultado_1 li {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#resultado_1 li button {
+    background-color: #ff6958;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#resultado_1 li button:hover {
+    background-color: #e55a50;
+}
